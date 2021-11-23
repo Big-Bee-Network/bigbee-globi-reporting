@@ -11,6 +11,7 @@ Please click on above travis badge to view current Big Bee reports.
 For archived reports from Big Bee project reports see 
 
 ## Creating a new archived report
+0. Update elton to get the most recent version
 1. Make a list of GloBI/Elton index configurations species interaction datasets. (e.g., see https://raw.githubusercontent.com/globalbioticinteractions/globalbioticinteractions.github.io/master/_data/bigbee.tsv)
 
 Example:
