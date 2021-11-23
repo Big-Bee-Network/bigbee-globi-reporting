@@ -1,14 +1,14 @@
-[![Build Status](https://travis-ci.org/ParasiteTracker/tpt-reporting.svg?branch=master)](https://travis-ci.org/ParasiteTracker/tpt-reporting) [![DOI]()]() 
+[![Build Status](https://travis-ci.org/Big-Bee-Network/bigbee-globi-reporting)](https://travis-ci.org/Big-Bee-Network/bigbee-globi-reporting) [![DOI]()]() 
 
 
 
-# Big Bee Global Biotic Interactions -reporting
-Big Bee Reporting Methods for Global Biotic Interactions was copied from the Terrestrial Parasite Tracker methods project
+# Big Bee Global Biotic Interactions - reporting
+Big Bee Reporting Methods for Global Biotic Interactions was copied from the Terrestrial Parasite Tracker (methods)[https://github.com/ParasiteTracker/tpt-reporting] project
 
 Please click on above travis badge to view current Big Bee reports. 
 
 
-For archived reports from TPT project see https://doi.org/10.5281/zenodo.3685364 and https://globalbioticinteractions.org/parasitetracker
+For archived reports from Big Bee project reports see 
 
 ## Creating a new archived report
 1. Make a list of GloBI/Elton index configurations species interaction datasets. (e.g., see https://raw.githubusercontent.com/globalbioticinteractions/globalbioticinteractions.github.io/master/_data/bigbee.tsv)
