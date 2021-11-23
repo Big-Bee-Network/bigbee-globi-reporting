@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/Big-Bee-Network/bigbee-globi-reporting)](https://travis-ci.org/Big-Bee-Network/bigbee-globi-reporting) [![DOI]()]() 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5722445.svg)](https://doi.org/10.5281/zenodo.5722445)
+
 
 
 
