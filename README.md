@@ -18,7 +18,7 @@ For archived reports from Big Bee project reports see
 Example:
 ```
 $ cat ~/proj/globi/globalbioticinteractions.github.io/_data/bigbee.tsv | tail -n+2 | cut -f10 | sort | uniq
-EMTuckerLabUMMZ/ummzi
+globalbioticinteractions/ummz-ummzi
 globalbioticinteractions/asu-asuhic
 globalbioticinteractions/cas-ent
 globalbioticinteractions/emec
