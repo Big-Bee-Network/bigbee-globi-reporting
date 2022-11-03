@@ -4,7 +4,7 @@
 
 
 # Big Bee Global Biotic Interactions - reporting
-Big Bee Reporting Methods for Global Biotic Interactions was copied from the Terrestrial Parasite Tracker (methods)[https://github.com/ParasiteTracker/tpt-reporting] project
+Big Bee Reporting Methods for Global Biotic Interactions was copied from the [Terrestrial Parasite Tracker (methods)](https://github.com/ParasiteTracker/tpt-reporting) project
 
 Please click on above travis badge to view current Big Bee reports. 
 
@@ -17,7 +17,16 @@ For archived reports from Big Bee project reports see
 
 Example:
 ```
-$ cat ~/proj/globi/globalbioticinteractions.github.io/_data/bigbee.tsv | tail -n+2 | cut -f10 | sort | uniq
+cat ~/proj/globi/globalbioticinteractions.github.io/_data/bigbee.tsv\
+| tail -n+2\
+| cut -f10\
+| sort\
+| uniq
+```
+
+yields:
+
+```
 globalbioticinteractions/ummz-ummzi
 globalbioticinteractions/asu-asuhic
 globalbioticinteractions/cas-ent
