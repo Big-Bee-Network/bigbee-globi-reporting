@@ -4,7 +4,7 @@
 
 
 # Big Bee Global Biotic Interactions - reporting
-Big Bee Reporting Methods for Global Biotic Interactions was copied from the Terrestrial Parasite Tracker (methods)[https://github.com/ParasiteTracker/tpt-reporting] project
+Big Bee Reporting Methods for Global Biotic Interactions was copied from the [Terrestrial Parasite Tracker (methods)](https://github.com/ParasiteTracker/tpt-reporting) project
 
 Please click on above travis badge to view current Big Bee reports. 
 
@@ -20,8 +20,17 @@ For archived reports from Big Bee project reports see
 
 Example:
 ```
-$ cat ~/proj/globi/globalbioticinteractions.github.io/_data/bigbee.tsv | tail -n+2 | cut -f10 | sort | uniq
-EMTuckerLabUMMZ/ummzi
+cat ~/proj/globi/globalbioticinteractions.github.io/_data/bigbee.tsv\
+| tail -n+2\
+| cut -f10\
+| sort\
+| uniq
+```
+
+yields:
+
+```
+globalbioticinteractions/ummz-ummzi
 globalbioticinteractions/asu-asuhic
 globalbioticinteractions/cas-ent
 globalbioticinteractions/emec
@@ -46,8 +55,44 @@ $ ./generate-report.sh datasets.tsv
 ...
 ```
 
+
 4. After generating the report, the results should be available in the ```output/``` folder. 
 
 5. Run Globi_bee_data.sh to generate report of just bee interactions by collection
 
 6. Create a new Zenodo verson. Copy the files over to the new version and update the text. Include the summary statistics for Bee Library in the text and in an associated PDF file.
+
+```
+review_summary.tsv:
+  Summary across all reviewed collections of the total number of distinct review comments.
+
+review_summary_by_collection.tsv:
+  Summary by the reviewed collection of the total number of distinct review comments.
+
+indexed_interactions_by_collection.tsv: 
+  Summary of the number of indexed interaction records by institutionCode and collectionCode.
+
+review_comments.tsv.gz:
+  All review comments by collection.
+
+indexed_interactions_full.tsv.gz:
+  All indexed interactions for all reviewed collections.
+
+indexed_interactions_simple.tsv.gz:
+  All indexed interactions for all reviewed collections selecting only sourceInstitutionCode, sourceCollectionCode, sourceCatalogNumber, sourceTaxonName, interactionTypeName and targetTaxonName.
+
+datasets_under_review.tsv:
+  Details on the datasets under review.
+
+elton.jar: 
+  Program used to update datasets and generate the review reports and associated indexed interactions.
+  
+Big Bee Metrics from the Bee Library and GloBI - July 27 2022.pdf:
+ Summary statistics from the Bee Library and GloBI about data partners
+
+indexed_interactions_bees.tsv:
+ All indexed bee interactions
+ 
+datasets.zip:
+ All datasets reviewed for this publication
+ ```
