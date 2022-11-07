@@ -13,6 +13,9 @@ For archived reports from Big Bee project reports see
 
 ## Creating a new archived report
 0. Update elton to get the most recent version
+
+[update to new version of generate-report.sh?]
+
 1. Make a list of GloBI/Elton index configurations species interaction datasets. (e.g., see https://raw.githubusercontent.com/globalbioticinteractions/globalbioticinteractions.github.io/master/_data/bigbee.tsv)
 
 Example:
@@ -34,7 +37,7 @@ globalbioticinteractions/unhc-unhc
 
 2. Save the list to a file (e.g., datasets.tsv)
 
-3. run report script: generate-report.sh [datasets.tsv] 
+3. Run report script: generate-report.sh [datasets.tsv] 
 
 e.g., 
 
@@ -43,4 +46,8 @@ $ ./generate-report.sh datasets.tsv
 ...
 ```
 
-4. after generating the report, the results should be available in the ```output/``` folder. 
+4. After generating the report, the results should be available in the ```output/``` folder. 
+
+5. Run Globi_bee_data.sh to generate report of just bee interactions by collection
+
+6. Create a new Zenodo verson. Copy the files over to the new version and update the text. Include the summary statistics for Bee Library in the text and in an associated PDF file.
