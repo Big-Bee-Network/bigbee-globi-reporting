@@ -55,7 +55,8 @@ $ ./generate-report.sh datasets.tsv
 4. after generating the report, the results should be available in the ```output/``` folder. 
 5. Update Zenodo publication with output files including:
 
-`review_summary.tsv:
+```
+review_summary.tsv:
   Summary across all reviewed collections of the total number of distinct review comments.
 
 review_summary_by_collection.tsv:
@@ -87,4 +88,4 @@ indexed_interactions_bees.tsv:
  
  datasets.zip
  All datasets reviewed for this publication.
- `
+ ```
