@@ -86,6 +86,6 @@ Big Bee Metrics from the Bee Library and GloBI - July 27 2022.pdf:
 indexed_interactions_bees.tsv:
  All indexed bee interactions
  
- datasets.zip
- All datasets reviewed for this publication.
+datasets.zip:
+ All datasets reviewed for this publication
  ```
