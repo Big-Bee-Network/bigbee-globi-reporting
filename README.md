@@ -62,6 +62,10 @@ $ ./generate-report.sh datasets.tsv
 
 6. Create a new Zenodo verson. Copy the files over to the new version and update the text. Include the summary statistics for Bee Library in the text and in an associated PDF file.
 
+7. copy-paste the zenodo description into the README file. Currently, only the auto-generated README is present, and your manual edits are valuable additions, providing context to the data without having to look at Zenodo's metadata.
+
+8. suggest to publish the metrics currently captured pdf as separate tables in csv/tsv format
+
 ```
 review_summary.tsv:
   Summary across all reviewed collections of the total number of distinct review comments.
